@@ -1,0 +1,9 @@
+{
+  "name": "สุดยอด AI เพื่อคุณครู (Super AI for Teachers) พัทธโรจน์",
+  "description": "An all-in-one AI toolkit for teachers, combining various Gemini capabilities into a single, beautiful interface. Features include image generation, video creation, advanced search, text-to-speech, chat, image analysis, and more.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone",
+    "camera"
+  ]
+}

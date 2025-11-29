@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>สุดยอด AI เพื่อคุณครู</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                50: 'rgb(var(--color-primary-50) / <alpha-value>)',
+                100: 'rgb(var(--color-primary-100) / <alpha-value>)',
+                200: 'rgb(var(--color-primary-200) / <alpha-value>)',
+                300: 'rgb(var(--color-primary-300) / <alpha-value>)',
+                400: 'rgb(var(--color-primary-400) / <alpha-value>)',
+                500: 'rgb(var(--color-primary-500) / <alpha-value>)',
+                600: 'rgb(var(--color-primary-600) / <alpha-value>)',
+                700: 'rgb(var(--color-primary-700) / <alpha-value>)',
+                800: 'rgb(var(--color-primary-800) / <alpha-value>)',
+                900: 'rgb(var(--color-primary-900) / <alpha-value>)',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^9.0.1",
+    "remark-gfm": "https://aistudiocdn.com/remark-gfm@^4.0.0",
+    "jspdf": "https://aistudiocdn.com/jspdf@^2.5.1",
+    "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 text-gray-900 antialiased selection:bg-primary-200 selection:text-primary-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
